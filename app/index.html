@@ -23,44 +23,63 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    
+  <header>
     <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">woman shoes</h3>
-      </div>
+      <div class="row">
+      <div class="col-md-12">
 
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
-      </div>
+        <div class="navbar navbar-default navbar-fixed-top">
+          <div class="top-nav">
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4><a href="https://html5boilerplate.com/">HTML5 Boilerplate</a></h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+                <div class="collapse navbar-collapse  col-lg-6 col-md-6">
+                    <ul class="nav navbar-nav  navbar-left">
+                        <li><a href="#">FOOSESHOES</a></li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse navbar-right col-lg-6 col-md-6">
+                    <div class="dropdown">
+                        <button id="userMenu" class="btn dropdown-toggle btn-primary" type="button" data-toggle="dropdown">
+                            <span>mandic.marko.ns@gmail.com</span><span class="caret userButton"></span>
+                        </button>
 
-          <h4><a href="http://libsass.org/">Sass</a></h4>
-          <p>Sass is a mature, stable, and powerful professional grade CSS extension language.</p>
-          
-
-          <h4><a href="http://getbootstrap.com/">Bootstrap</a></h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="userMenu">
+                            <li role="presentation"><a href="#" tabindex="-1" role="menuitem">View Details</a></li>
+                            <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Edit</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
         </div>
-      </div>
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <div class="collapse navbar-collapse" id="mainNav">
+                    <ul id="navlist" class="nav nav-justified">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Products</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Pages</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+        </div>
 
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
       </div>
     </div>
-    
+  </div>
+  </header>
+
+
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
@@ -68,7 +87,7 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-    
+
     <!-- build:js(.) scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -83,7 +102,7 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-    
+
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
